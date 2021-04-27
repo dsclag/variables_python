@@ -44,4 +44,80 @@ Cualquier duda con el método split pueden consultarla por el campus
 '''
 
 print('Jugando con texto')
+print(" ")
 # Empezar aquí la resolución del ejercicio
+
+
+print("Ingresar nombre del padre: ")
+nPadre = str(input())
+
+print("Ingresar apellido del padre: ")
+aPadre = str(input())
+
+comPadre = nPadre + " " + aPadre
+comPadre.split()
+print(" ")
+print("El nombre completo ingresado del padre es: ")
+print(comPadre)
+
+print(" ")
+
+print("Ingresar nombre de la madre: ")
+nMadre = str(input())
+
+print("Ingresar apellido de la madre: ")
+aMadre = str(input())
+
+comMadre = nMadre + " " + aMadre
+comMadre.split()
+print(" ")
+print("El nombre completo ingresado de la madre es: ")
+print(comMadre)
+
+print(" ")
+
+print("Ingresar solo el nombre del hijo: ")
+nHijo = str(input())
+print(" ")
+
+print("Los dos apellidos de los padres son: ")
+amApellidos = aPadre +" " + "y" + " " + aMadre
+amApellidos2 = aPadre + " " + aMadre
+amApellidos3 = aMadre + " " + aPadre
+print(amApellidos)
+print(" ")
+
+print("Por ende, el nombre completo del hijo seria: ")
+aHijo = amApellidos2
+ahijo2 = amApellidos3
+print(nHijo + " " + aHijo)
+print(" ")
+print("O bien, tambien podria ser")
+print(" ")
+print(nHijo + " " + ahijo2)
+
+print(" ")
+print(" ")
+
+print("O la ecuacion puede ser ya definida desde antes: ")
+print(" ")
+
+nombre_padre = "Ryan Ray"
+nombre_madre = "Rihanna Diamond"
+nombre, apellido = nombre_padre.split(" ")
+nombre1, apellido1 = nombre_madre.split (" ")
+nombre_hijo = "Lucqs"
+
+print("El nombre y apellido del padre es: ")
+print(nombre_padre)
+print(" ")
+print("El nombre y apellido de la madre es: ")
+print(nombre_madre)
+print(" ")
+print("El nombre del hijo es: ")
+print(nombre_hijo)
+print(" ")
+print("Haciendo la ecuacion pedida, toda la mezcla quedaria")
+print(" ")
+apellido_hijo = nombre_hijo + " " + apellido + " " + apellido1
+print(apellido_hijo)

@@ -31,5 +31,30 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
-print('Sistema de ingreso de datos')
+print('Sistema de ingreso de datos..')
+print(" ")
 # Empezar aquí la resolución del ejercicio
+
+npaciente = "Lucas" or "lucas"
+apaciente = "Land" or "land"
+
+list1 = "Lucas Ezequiel land"
+dni = "41.781.455"
+altura = "180cm"
+edad = "22 años"
+fdn = "27/02/1999"
+aler = "Penicilina"
+
+
+
+if npaciente == "Lucas" or "lucas":
+  if apaciente == "Land" or "land":
+    print("Estos son los datos que encontre en la base de datos: ")
+    print("El nombre completo del paciente es " + list1)
+    print("El dni del paciente es " + dni)
+    print("La altura del paciente es " + altura)
+    print("La edad del paciente es " + edad)
+    print(" ")
+    print("Datos adicionales a los solicitados: ")
+    print("Fecha de nacimiento del paciente " + fdn)
+    print("Alergico a " + aler)

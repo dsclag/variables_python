@@ -33,3 +33,15 @@ numero_2 = int(input())
 # División
 
 # Multiplicación
+
+suma = (numero_1 + numero_2)
+print(suma)
+
+resta = (numero_1 - numero_2)
+print(resta)
+
+division = (numero_1 / numero_2)
+print(division)
+
+multiplicación = (numero_1 * numero_2)
+print(multiplicación)

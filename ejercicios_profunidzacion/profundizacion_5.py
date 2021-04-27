@@ -37,4 +37,15 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
 print('Ahora si! buena suerte')
+print(" ")
 # Empezar aquí la resolución del ejercicio
+
+print("Ingrese la palabra deseada: ")
+myStr = str(input())
+print(" ")
+print(" ")
+
+print(myStr.lower()) 
+print(myStr.upper()) 
+print(myStr.swapcase()) 
+print(myStr.capitalize()) 

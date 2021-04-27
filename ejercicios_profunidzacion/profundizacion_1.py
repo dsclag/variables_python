@@ -30,4 +30,35 @@ E) Exponente/Potencia
 '''
 
 print('¡Nuestra primera calculadora!')
+print(" ")
 # Empezar aquí la resolución del ejercicio
+
+print("Ingrese por consola el primer numero deseado")
+num_1 = int(input())
+
+print("Ingrese por consola el segundo numero deseado")
+num_2 = int(input())
+
+suma = (num_1 + num_2)
+resta = (num_1 - num_2)
+multiplicacion = (num_1 * num_2)
+division = (num_1 / num_2)
+potencia = (num_1 ** num_2)
+
+print("El resultado de la suma de los numeros introducidos es: ")
+print(suma)
+
+print("El resultado de la resta de los numeros introducidos es: ")
+print(resta)
+
+print("El resultado de la multiplicacion de los numeros introducidos es:  ")
+print(multiplicacion)
+
+print("El resultado de la division de los numeros introducidos es: ")
+print(division)
+
+print("El resultado del exponente de los numeros introducidos es: ")
+print(potencia)
+
+print(" ")
+print("Muchas gracias por usar nuestra calculadora, que tenga buen dia")
